@@ -90,4 +90,26 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/config/modem/919/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/919/modem.conf \
     $(DEVICE_PATH)/config/modem/920/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/920/modem.conf \
     $(DEVICE_PATH)/config/modem/924/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/924/modem.conf \
-    $(DEVICE_PATH)/config/modem/926/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/926/modem.conf
+    $(DEVICE_PATH)/config/modem/926/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/926/modem.conf \
+    $(DEVICE_PATH)/config/modem/308/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/308/modem.conf \
+    $(DEVICE_PATH)/config/modem/318/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/318/modem.conf \
+    $(DEVICE_PATH)/config/modem/339/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/339/modem.conf \
+    $(DEVICE_PATH)/config/modem/340/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/340/modem.conf \
+    $(DEVICE_PATH)/config/modem/341/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/341/modem.conf \
+    $(DEVICE_PATH)/config/modem/343/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/343/modem.conf \
+    $(DEVICE_PATH)/config/modem/344/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/344/modem.conf \
+    $(DEVICE_PATH)/config/modem/348/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/348/modem.conf \
+    $(DEVICE_PATH)/config/modem/358/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/358/modem.conf \
+    $(DEVICE_PATH)/config/modem/365/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/365/modem.conf \
+    $(DEVICE_PATH)/config/modem/400/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/400/modem.conf \
+    $(DEVICE_PATH)/config/modem/426/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/426/modem.conf \
+    $(DEVICE_PATH)/config/modem/447/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/447/modem.conf \
+    $(DEVICE_PATH)/config/modem/448/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/448/modem.conf \
+    $(DEVICE_PATH)/config/modem/449/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/449/modem.conf \
+    $(DEVICE_PATH)/config/modem/451/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/451/modem.conf \
+    $(DEVICE_PATH)/config/modem/477/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/477/modem.conf \
+    $(DEVICE_PATH)/config/modem/523/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/523/modem.conf \
+    $(DEVICE_PATH)/config/modem/567/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/567/modem.conf \
+    $(DEVICE_PATH)/config/modem/640/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/640/modem.conf \
+    $(DEVICE_PATH)/config/modem/928/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/928/modem.conf \
+    $(DEVICE_PATH)/config/modem/929/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/929/modem.conf
