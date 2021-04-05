@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/asop_maple.mk
+    $(LOCAL_DIR)/evolution_maple.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_maple-user \
-    aosp_maple-userdebug \
-    aosp_maple-eng
+    evolution_maple-user \
+    evolution_maple-userdebug \
+    evolution_maple-eng

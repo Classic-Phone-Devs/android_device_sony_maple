@@ -28,7 +28,7 @@ TARGET_INCREMENTAL_BLOCK_BASED := true
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := aosp_maple
+PRODUCT_NAME := evolution_maple
 PRODUCT_DEVICE := maple
 PRODUCT_BRAND := Sony
 PRODUCT_MODEL := G8141
