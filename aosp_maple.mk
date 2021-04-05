@@ -15,11 +15,20 @@ TARGET_SCREEN_WIDTH := 1080
 # vendor/lineage/config/common.mk
 TARGET_BOOTANIMATION_HALF_RES := true
 
-### LINEAGE
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+### evolution
+CUSTOM_BUILD_TYPE := UNOFFICIAL
+EVO_DONATE_URL := NONEED
+EVO_MAINTAINER := Sharakovia@reallyshow
+EVO_SUPPORT_URL := https://github.com/sharakovia
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_GAPPS_ARCH := arm64
+TARGET_INCLUDE_WIFI_EXT := true
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_INCREMENTAL_BLOCK_BASED := true
+$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_maple
+PRODUCT_NAME := aosp_maple
 PRODUCT_DEVICE := maple
 PRODUCT_BRAND := Sony
 PRODUCT_MODEL := G8141
