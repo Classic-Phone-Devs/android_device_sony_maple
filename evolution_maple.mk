@@ -16,7 +16,7 @@ TARGET_SCREEN_WIDTH := 1080
 TARGET_BOOTANIMATION_HALF_RES := true
 
 ### evolution
-CUSTOM_BUILD_TYPE := OFFICIAL
+CUSTOM_BUILD_TYPE := UNOFFICIAL
 EVO_DONATE_URL := https://github.com/Classic-Phone-Devs
 EVO_MAINTAINER := Alcatraz&Sharakovia
 EVO_SUPPORT_URL := https://github.com/Classic-Phone-Devs
