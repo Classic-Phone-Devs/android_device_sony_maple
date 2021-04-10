@@ -312,4 +312,30 @@
         <sim_config_id>S8760.1</sim_config_id>
         <sim_config_id>S8760.2</sim_config_id>
     </configuration>
+    <configuration config_id="319">
+        <sim_config_id>S284.1
+        </sim_config_id>
+        <sim_config_id>S284.2
+        </sim_config_id>
+        <sim_config_id>S284.3
+        </sim_config_id>
+        <sim_config_id>S284.4
+        </sim_config_id>
+        <sim_config_id>S284.5
+        </sim_config_id>
+    </configuration>
+    <configuration config_id="539">
+        <sim_config_id>S285.1
+        </sim_config_id>
+        <sim_config_id>S285.2
+        </sim_config_id>
+        <sim_config_id>S285.3
+        </sim_config_id>
+    </configuration>
+    <configuration config_id="541">
+        <sim_config_id>S8760.1
+        </sim_config_id>
+        <sim_config_id>S8760.2
+        </sim_config_id>
+    </configuration>
 </configurations>

@@ -60,6 +60,124 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         Carrier-specific entries
     -->
 
+    <carrier_config mcc="450" mnc="5">
+        <boolean name="carrier_volte_available_bool" value="true"/>
+        <boolean name="carrier_vt_available_bool" value="true"/>
+        <boolean name="enableMMSDeliveryReports" value="false"/>
+        <boolean name="enableSMSDeliveryReports" value="false"/>
+        <int name="recipientLimit" value="100"/>
+        <int name="maxMessageSize" value="1048576"/>
+        <int name="smsToMmsTextThreshold" value="1"/>
+        <boolean name="enableGroupMms" value="true"/>
+        <boolean name="groupChatDefaultsToMMS" value="false"/>
+        <boolean name="smsDeliveryReportSettingOnByDefault" value="false"/>
+    </carrier_config>
+    <carrier_config mcc="450" mnc="8">
+        <boolean name="carrier_volte_available_bool" value="true"/>
+        <boolean name="carrier_vt_available_bool" value="true"/>
+        <boolean name="enableMMSDeliveryReports" value="false"/>
+        <boolean name="enableSMSDeliveryReports" value="false"/>
+        <int name="recipientLimit" value="100"/>
+        <int name="maxMessageSize" value="1048576"/>
+        <int name="smsToMmsTextThreshold" value="1"/>
+        <boolean name="enableGroupMms" value="true"/>
+        <boolean name="groupChatDefaultsToMMS" value="false"/>
+        <boolean name="smsDeliveryReportSettingOnByDefault" value="false"/>
+    </carrier_config>
+    <carrier_config mcc="450" mnc="6">
+        <boolean name="carrier_volte_available_bool" value="true"/>
+        <boolean name="carrier_vt_available_bool" value="true"/>
+        <boolean name="enableMMSDeliveryReports" value="false"/>
+        <boolean name="enableSMSDeliveryReports" value="false"/>
+        <int name="recipientLimit" value="100"/>
+        <int name="maxMessageSize" value="1048576"/>
+        <int name="smsToMmsTextThreshold" value="1"/>
+        <boolean name="enableGroupMms" value="true"/>
+        <boolean name="groupChatDefaultsToMMS" value="false"/>
+        <boolean name="smsDeliveryReportSettingOnByDefault" value="false"/>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="0">
+        <boolean name="carrier_volte_available_bool" value="true"/>
+        <int name="maxMessageSize" value="307200"/>
+        <int name="smsToMmsTextThreshold" value="10"/>
+        <boolean name="enableGroupMms" value="false"/>
+        <boolean name="carrier_vt_available_bool" value="true"/>
+        <boolean name="allowEnablingWapPushSI" value="false"/>
+        <boolean name="enableWapPushSI" value="true"/>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="2">
+        <boolean name="carrier_volte_available_bool" value="true"/>
+        <boolean name="carrier_vt_available_bool" value="true"/>
+        <int name="maxMessageSize" value="307200"/>
+        <int name="smsToMmsTextThreshold" value="10"/>
+        <boolean name="enableGroupMms" value="false"/>
+        <boolean name="allowEnablingWapPushSI" value="false"/>
+        <boolean name="enableWapPushSI" value="true"/>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="7">
+        <boolean name="carrier_volte_available_bool" value="true"/>
+        <boolean name="carrier_vt_available_bool" value="true"/>
+        <int name="maxMessageSize" value="307200"/>
+        <int name="smsToMmsTextThreshold" value="10"/>
+        <boolean name="enableGroupMms" value="false"/>
+        <boolean name="allowEnablingWapPushSI" value="false"/>
+        <boolean name="enableWapPushSI" value="true"/>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="8">
+        <boolean name="carrier_volte_available_bool" value="true"/>
+        <boolean name="carrier_vt_available_bool" value="true"/>
+        <int name="maxMessageSize" value="307200"/>
+        <int name="smsToMmsTextThreshold" value="10"/>
+        <boolean name="enableGroupMms" value="false"/>
+        <boolean name="allowEnablingWapPushSI" value="false"/>
+        <boolean name="enableWapPushSI" value="true"/>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="4">
+        <boolean name="carrier_vt_available_bool" value="true"/>
+        <boolean name="carrier_volte_available_bool" value="true"/>
+        <int name="maxMessageSize" value="307200"/>
+        <int name="smsToMmsTextThreshold" value="10"/>
+        <boolean name="enableGroupMms" value="false"/>
+        <boolean name="allowEnablingWapPushSI" value="false"/>
+        <boolean name="enableWapPushSI" value="true"/>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="1">
+        <boolean name="carrier_volte_available_bool" value="true"/>
+        <boolean name="carrier_vt_available_bool" value="true"/>
+        <int name="maxMessageSize" value="307200"/>
+        <int name="smsToMmsTextThreshold" value="10"/>
+        <boolean name="enableGroupMms" value="false"/>
+        <boolean name="allowEnablingWapPushSI" value="false"/>
+        <boolean name="enableWapPushSI" value="true"/>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="9">
+        <boolean name="carrier_vt_available_bool" value="true"/>
+        <boolean name="carrier_volte_available_bool" value="true"/>
+        <int name="maxMessageSize" value="307200"/>
+        <int name="smsToMmsTextThreshold" value="10"/>
+        <boolean name="enableGroupMms" value="false"/>
+        <boolean name="allowEnablingWapPushSI" value="false"/>
+        <boolean name="enableWapPushSI" value="true"/>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="3">
+        <boolean name="carrier_vt_available_bool" value="true"/>
+        <boolean name="carrier_volte_available_bool" value="true"/>
+        <int name="maxMessageSize" value="307200"/>
+        <int name="smsToMmsTextThreshold" value="10"/>
+        <boolean name="enableGroupMms" value="false"/>
+        <boolean name="allowEnablingWapPushSI" value="false"/>
+        <boolean name="enableWapPushSI" value="true"/>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="11">
+        <boolean name="carrier_vt_available_bool" value="true"/>
+        <boolean name="carrier_volte_available_bool" value="true"/>
+        <int name="maxMessageSize" value="307200"/>
+        <int name="smsToMmsTextThreshold" value="10"/>
+        <boolean name="enableGroupMms" value="false"/>
+        <boolean name="allowEnablingWapPushSI" value="false"/>
+        <boolean name="enableWapPushSI" value="true"/>
+    </carrier_config>
+
     <!-- Carrier-specific Cosmote GR -->
     <carrier_config mcc="202" mnc="01">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -539,52 +657,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
-    </carrier_config>
-
-    <!-- Carrier-specific customized CN -->
-    <carrier_config mcc="460" mnc="00">
-        <boolean name="carrier_volte_available_bool" value="true" />
-    </carrier_config>
-
-    <!-- Custom addition -->
-    <carrier_config mcc="460" mnc="01">
-        <boolean name="carrier_volte_available_bool" value="true" />
-    </carrier_config>
-
-    <!-- Carrier-specific customized CN -->
-    <carrier_config mcc="460" mnc="02">
-        <boolean name="carrier_volte_available_bool" value="true" />
-    </carrier_config>
-
-    <!-- Custom addition -->
-    <carrier_config mcc="460" mnc="03">
-        <boolean name="carrier_volte_available_bool" value="true" />
-    </carrier_config>
-
-    <!-- Carrier-specific customized CN -->
-    <carrier_config mcc="460" mnc="04">
-        <boolean name="carrier_volte_available_bool" value="true" />
-    </carrier_config>
-
-    <!-- Custom addition -->
-    <carrier_config mcc="460" mnc="06">
-        <boolean name="carrier_volte_available_bool" value="true" />
-    </carrier_config>
-
-    <!-- Carrier-specific customized CN -->
-    <carrier_config mcc="460" mnc="07">
-        <boolean name="carrier_volte_available_bool" value="true" />
-    </carrier_config>
-    <carrier_config mcc="460" mnc="08">
-        <boolean name="carrier_volte_available_bool" value="true" />
-    </carrier_config>
-
-    <!-- Custom addition -->
-    <carrier_config mcc="460" mnc="09">
-        <boolean name="carrier_volte_available_bool" value="true" />
-    </carrier_config>
-    <carrier_config mcc="460" mnc="11">
-        <boolean name="carrier_volte_available_bool" value="true" />
     </carrier_config>
 
 </carrier_config_list>
